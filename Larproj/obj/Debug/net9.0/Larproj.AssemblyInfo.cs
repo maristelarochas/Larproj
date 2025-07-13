@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Larproj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+630a7af91d8b68d75932030c205285dcb03bb130")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae92f8bd54723c3608e363f4f1664328777e771f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Larproj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Larproj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

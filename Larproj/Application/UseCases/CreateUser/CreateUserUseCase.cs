@@ -14,18 +14,20 @@ public class CreateUserUseCase(IUserRepository userRepository) : ICreateUserUseC
 {
     public async Task<CreateUserOutputDto> Execute(CreateUserInputDto input)
     {
-        var existingUser = await userRepository.GetUserByEmail(input.UserEmail);
+        var existingUser = await userRepository.GetByEmail(input.Email);
         if (existingUser != null)
             throw new InvalidCredentialException();
-        
+
         var newUser = new User(
-            userId: 0,
-            userName: input.UserName,
-            userEmail: input.UserEmail,
-            userHashPassword: input.UserHashPassword
+            id: 0,
+            name: input.Name,
+            email: input.Email,
+            hashPassword: input.HashPassword,
+            currentScore: 0,
+            partyId: null
         );
 
-        await userRepository.AddUser(newUser);
+        await userRepository.Add(newUser);
         return new CreateUserOutputDto { Token = "success" };
     }
 }

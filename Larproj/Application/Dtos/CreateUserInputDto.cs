@@ -8,7 +8,7 @@ namespace Larproj.Application.Dtos;
 public class CreateUserInputDto()
 {
     public int UserId { get; set; }
-    public required string UserName { get; set; }
-    public required string UserEmail { get; set; }
-    public required string UserHashPassword { get; set; }
+    public required string Name { get; set; }
+    public required string Email { get; set; }
+    public required string HashPassword { get; set; }
 }

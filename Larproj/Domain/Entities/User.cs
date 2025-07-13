@@ -7,16 +7,20 @@ namespace Larproj.Domain.Entities;
 
 public class User
 {
-    public int UserId { get; private set; }
-    public string UserName { get; private set; }
-    public string UserEmail { get; private set; }
-    public string UserHashPassword { get; private set; }
+    public int Id { get; private set; }
+    public string Name { get; private set; }
+    public string Email { get; private set; }
+    public string HashPassword { get; private set; }
+    public int CurrentScore { get; private set; }
+    public int? PartyId { get; private set; }
 
-    public User(int userId, string userName, string userEmail, string userHashPassword)
+    public User(int id, string name, string email, string hashPassword, int currentScore, int? partyId)
     {
-        UserId = userId;
-        UserName = userName;
-        UserEmail = userEmail;
-        UserHashPassword = userHashPassword;
+        Id = id;
+        Name = name;
+        Email = email;
+        HashPassword = hashPassword;
+        CurrentScore = currentScore;
+        PartyId = partyId;
     }
 }
