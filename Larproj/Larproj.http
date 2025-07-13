@@ -1,0 +1,6 @@
+@Larproj_HostAddress = http://localhost:5271
+
+GET {{Larproj_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
