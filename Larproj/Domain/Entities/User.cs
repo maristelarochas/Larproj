@@ -14,6 +14,7 @@ public class User
     public int CurrentScore { get; private set; }
     public int? PartyId { get; private set; }
 
+    public User() { }
     public User(int id, string name, string email, string hashPassword, int currentScore, int? partyId)
     {
         Id = id;

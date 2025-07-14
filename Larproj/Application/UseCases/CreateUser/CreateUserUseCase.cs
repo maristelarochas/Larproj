@@ -1,6 +1,7 @@
 using System.Security.Authentication;
 using Larproj.Application.Dtos;
 using Larproj.Domain.Entities;
+using Larproj.Domain.Exceptions;
 using Larproj.Infrastruture.Repositories;
 
 namespace Larproj.Application.UseCases.CreateUser;
@@ -16,7 +17,7 @@ public class CreateUserUseCase(IUserRepository userRepository) : ICreateUserUseC
     {
         var existingUser = await userRepository.GetByEmail(input.Email);
         if (existingUser != null)
-            throw new InvalidCredentialException();
+            throw new EmailAlreadyExistsException(input.Email);
 
         var newUser = new User(
             id: 0,

@@ -17,7 +17,7 @@ public class UserRepository(DataContext dataContext) : IUserRepository
 {
     public async Task Add(User user)
     {
-        await dataContext.Users.AddAsync(user);
+        dataContext.Users.AddAsync(user);
         await dataContext.SaveChangesAsync();
     }
     public async Task<User?> GetByEmail(string email)
