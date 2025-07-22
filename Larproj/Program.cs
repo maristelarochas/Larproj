@@ -1,4 +1,5 @@
 using Larproj.Application.UseCases.CreateUser;
+using Larproj.Application.UseCases.LarTaskUc;
 using Larproj.Infrastruture.Persistence;
 using Larproj.Infrastruture.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,9 @@ builder.Services.AddDbContext<DataContext>(options =>
 });
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ICreateUserUseCase, CreateUserUseCase>();
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddScoped<ICreateTaskUseCase, CreateTaskUseCase>();
+builder.Services.AddScoped<IDeleteTaskUseCase, DeleteTaskUseCase>();
 
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -21,7 +25,7 @@ var optionsBuilder = new DbContextOptionsBuilder<DataContext>();
 
 optionsBuilder.UseSqlite("Data Source=larproj.db");
 
-var app = builder.Build();
+WebApplication app = builder.Build();
 app.MapControllers();
 if (app.Environment.IsDevelopment())
 {
@@ -29,7 +33,5 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     app.UseCors("AllowAll");
 }
-
 app.UseHttpsRedirection();
-
 app.Run();

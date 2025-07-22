@@ -1,4 +1,3 @@
-using System.Security.Authentication;
 using Larproj.Application.Dtos;
 using Larproj.Domain.Entities;
 using Larproj.Domain.Exceptions;
@@ -29,6 +28,6 @@ public class CreateUserUseCase(IUserRepository userRepository) : ICreateUserUseC
         );
 
         await userRepository.Add(newUser);
-        return new CreateUserOutputDto { Token = "success" };
+        return new CreateUserOutputDto { Id = newUser.Id };
     }
 }

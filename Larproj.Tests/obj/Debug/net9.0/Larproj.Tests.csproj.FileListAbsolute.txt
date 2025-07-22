@@ -1,10 +1,4 @@
-C:\Users\Maristela\Documents\Estudos\Larproj\Larproj.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_Larproj.Tests
-C:\Users\Maristela\Documents\Estudos\Larproj\Larproj.Tests\obj\Debug\net9.0\Larproj.Tests.csproj.AssemblyReference.cache
-C:\Users\Maristela\Documents\Estudos\Larproj\Larproj.Tests\obj\Debug\net9.0\Larproj.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Maristela\Documents\Estudos\Larproj\Larproj.Tests\obj\Debug\net9.0\Larproj.Tests.AssemblyInfoInputs.cache
-C:\Users\Maristela\Documents\Estudos\Larproj\Larproj.Tests\obj\Debug\net9.0\Larproj.Tests.AssemblyInfo.cs
-C:\Users\Maristela\Documents\Estudos\Larproj\Larproj.Tests\obj\Debug\net9.0\Larproj.Tests.csproj.CoreCompileInputs.cache
-C:\Users\Maristela\Documents\Estudos\Larproj\Larproj.Tests\obj\Debug\net9.0\Larproj.Tests.sourcelink.json
+C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_LarProj.Tests
 C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\bin\Debug\net9.0\testhost.dll
 C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\bin\Debug\net9.0\Larproj.deps.json
 C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\bin\Debug\net9.0\Larproj.runtimeconfig.json
@@ -256,6 +250,12 @@ C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\bin\Debug\net9.0\Larp
 C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\bin\Debug\net9.0\Larproj.pdb
 C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\bin\Debug\net9.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\obj\Debug\net9.0\LarProj.Tests.csproj.AssemblyReference.cache
+C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\obj\Debug\net9.0\LarProj.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\obj\Debug\net9.0\LarProj.Tests.AssemblyInfoInputs.cache
+C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\obj\Debug\net9.0\LarProj.Tests.AssemblyInfo.cs
+C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\obj\Debug\net9.0\LarProj.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\obj\Debug\net9.0\LarProj.Tests.sourcelink.json
 C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\obj\Debug\net9.0\LarProj.Tests.dll
 C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\obj\Debug\net9.0\refint\LarProj.Tests.dll
 C:\Users\Maristela\Documents\Estudos\Larproj\LarProj.Tests\obj\Debug\net9.0\LarProj.Tests.pdb

@@ -1,11 +1,3 @@
-C:\Users\Maristela\Documents\Estudos\Larproj\obj\Debug\net9.0\Larproj.csproj.AssemblyReference.cache
-C:\Users\Maristela\Documents\Estudos\Larproj\obj\Debug\net9.0\rpswa.dswa.cache.json
-C:\Users\Maristela\Documents\Estudos\Larproj\obj\Debug\net9.0\Larproj.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Maristela\Documents\Estudos\Larproj\obj\Debug\net9.0\Larproj.AssemblyInfoInputs.cache
-C:\Users\Maristela\Documents\Estudos\Larproj\obj\Debug\net9.0\Larproj.AssemblyInfo.cs
-C:\Users\Maristela\Documents\Estudos\Larproj\obj\Debug\net9.0\Larproj.csproj.CoreCompileInputs.cache
-C:\Users\Maristela\Documents\Estudos\Larproj\obj\Debug\net9.0\Larproj.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Maristela\Documents\Estudos\Larproj\obj\Debug\net9.0\Larproj.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Maristela\Documents\Estudos\Larproj\Larproj\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\Maristela\Documents\Estudos\Larproj\Larproj\bin\Debug\net9.0\appsettings.json
 C:\Users\Maristela\Documents\Estudos\Larproj\Larproj\bin\Debug\net9.0\package-lock.json

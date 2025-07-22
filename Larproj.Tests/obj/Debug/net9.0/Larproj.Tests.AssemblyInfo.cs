@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Larproj.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46ade45fedceece9aba4564059d3091c339f7fef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9978836d4cc11588506bfac4079a2846c0739a25")]
 [assembly: System.Reflection.AssemblyProductAttribute("Larproj.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Larproj.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
